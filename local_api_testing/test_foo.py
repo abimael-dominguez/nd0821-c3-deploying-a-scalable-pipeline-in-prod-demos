@@ -1,3 +1,8 @@
+"""
+python -m pytest test_main.py
+In the case of running pytest with the -m flag, it tells Python to run the pytest module as a script
+"""
+
 from fastapi.testclient import TestClient
 
 from foo import app
